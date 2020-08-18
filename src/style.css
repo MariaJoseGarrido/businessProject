@@ -1,0 +1,115 @@
+body {
+font-family: 'Baloo Tamma 2', cursive;
+}
+
+.navigation {
+    position: fixed;
+    text-decoration: none;
+    margin-top: -20px;
+    padding: 0;
+    font-family: 'Baloo Tamma 2', cursive;
+    font-size: 1.5rem;
+    z-index: 10000;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    width: 100%;
+    height: 7%;
+    background-color: #572A99;
+
+  }
+  
+  .navigation div{
+    width: 100%;
+    
+  }
+
+  .navigation a {
+    display: block;
+    transition: all 0.4s linear;
+    text-decoration: none;
+    color: inherit;
+
+  }
+  
+  /*botones*/
+  .navigation .btnM.active {
+      color: white;
+  }
+  
+  .btnM {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+      transition: background-color .2s;
+      padding-bottom: 5px;
+  }
+  
+  .btnM:hover {
+      cursor: pointer;
+      transition: background-color .4s;
+  }
+  
+  #btn1 {
+	color: #ffffff;
+	border-top: 5px solid #572A99;
+  }
+  #btn1.active {
+    background: #EC8213;
+}
+  #btn1:hover {
+	color: white;
+	background-color: #EC8213; 
+  }
+  
+  #btn2 {
+	color: #ffffff;
+	border-top: 5px solid #572A99;
+  }
+  #btn2.active {
+    background: #EC8213;
+}
+  
+  #btn2:hover {
+	color: white;
+	background-color: #EC8213; 
+  }
+  
+  #btn3 {
+	color: #ffffff;
+	border-top: 5px solid #572A99;
+  }
+  #btn3.active {
+    background: #EC8213;
+}
+  
+  #btn3:hover {
+	color: white;
+	background-color: #EC8213; 
+  }
+  
+  #btn4 {
+	color: #ffffff;
+	border-top: 5px solid #572A99;
+  }
+  #btn4.active {
+    background: #EC8213;
+}
+  
+  #btn4:hover {
+	color: white;
+	background-color: #EC8213; 
+  }
+  
+  #btn5 {
+	color: #ffffff;
+	border-top: 5px solid #572A99;
+}
+#btn5.active {
+  background: #EC8213;
+}
+
+#btn5:hover {
+	color: white;
+	background-color: #EC8213; 
+}
