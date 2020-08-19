@@ -1,115 +1,114 @@
+.hootie-logo{
+  width: 95%;
+  margin-top: 1%;
+}
+
+.hootie-footer{
+  width: 100%;
+}
+
+/*navbar*/
 body {
-font-family: 'Baloo Tamma 2', cursive;
+	background: #ffffff;
+	font-size:22px;
+	line-height: 32px;
+	color: #ffffff;
+	word-wrap:break-word !important;
+  font-family: 'Baloo Tamma 2', cursive;
+	}
+
+h1 {
+	font-size: 60px;
+	text-align: center;
+	color: #FFF;
+}	
+
+h3 {
+	font-size: 30px;
+	text-align: center;
+	color: #FFF;
 }
 
-.navigation {
-    position: fixed;
-    text-decoration: none;
-    margin-top: -20px;
-    padding: 0;
-    font-family: 'Baloo Tamma 2', cursive;
-    font-size: 1.5rem;
-    z-index: 10000;
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: nowrap;
-    width: 100%;
-    height: 7%;
-    background-color: #572A99;
-
-  }
-  
-  .navigation div{
-    width: 100%;
-    
-  }
-
-  .navigation a {
-    display: block;
-    transition: all 0.4s linear;
-    text-decoration: none;
-    color: inherit;
-
-  }
-  
-  /*botones*/
-  .navigation .btnM.active {
-      color: white;
-  }
-  
-  .btnM {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-      transition: background-color .2s;
-      padding-bottom: 5px;
-  }
-  
-  .btnM:hover {
-      cursor: pointer;
-      transition: background-color .4s;
-  }
-  
-  #btn1 {
-	color: #ffffff;
-	border-top: 5px solid #572A99;
-  }
-  #btn1.active {
-    background: #EC8213;
-}
-  #btn1:hover {
-	color: white;
-	background-color: #EC8213; 
-  }
-  
-  #btn2 {
-	color: #ffffff;
-	border-top: 5px solid #572A99;
-  }
-  #btn2.active {
-    background: #EC8213;
-}
-  
-  #btn2:hover {
-	color: white;
-	background-color: #EC8213; 
-  }
-  
-  #btn3 {
-	color: #ffffff;
-	border-top: 5px solid #572A99;
-  }
-  #btn3.active {
-    background: #EC8213;
-}
-  
-  #btn3:hover {
-	color: white;
-	background-color: #EC8213; 
-  }
-  
-  #btn4 {
-	color: #ffffff;
-	border-top: 5px solid #572A99;
-  }
-  #btn4.active {
-    background: #EC8213;
-}
-  
-  #btn4:hover {
-	color: white;
-	background-color: #EC8213; 
-  }
-  
-  #btn5 {
-	color: #ffffff;
-	border-top: 5px solid #572A99;
-}
-#btn5.active {
-  background: #EC8213;
+h3 a {
+	color: #FFF;
 }
 
-#btn5:hover {
-	color: white;
-	background-color: #EC8213; 
+a {
+	color: #FFF;
 }
+
+h1 {
+	margin-top: 100px;
+	text-align:center;
+	font-size:60px;
+  font-family: 'Baloo Tamma 2', cursive;
+	}
+
+#container {
+	margin: 0 auto;
+}
+
+p {
+	text-align: center;
+}
+
+nav {
+	margin: 50px 0;
+  background-color: #572A99;
+  border-radius: 30px;
+}
+
+nav ul {
+	padding: 0;
+  margin: 0;
+	list-style: none;
+	position: relative;
+	}
+	
+nav ul li {
+	display:inline-block;
+  background-color:#72BAEC;
+	}
+
+nav a {
+	display:block;
+	padding:0 10px;	
+	color:#FFF;
+	font-size:20px;
+	line-height: 60px;
+	text-decoration:none;
+}
+
+nav a:hover { 
+  background-color: #EC8213; 
+  color:#FFF;
+}
+
+/* Hide Dropdowns by Default */
+nav ul ul {
+	display: none;
+	position: absolute; 
+	top: 60px; /* the height of the main nav */
+}
+	
+/* Display Dropdowns on Hover */
+nav ul li:hover > ul {
+	display:inherit;
+}
+	
+/* Fisrt Tier Dropdown */
+nav ul ul li {
+	width:170px;
+	float:none;
+	display:list-item;
+	position: relative;
+}
+
+/* Second, Third and more Tiers	*/
+nav ul ul ul li {
+	position: relative;
+	top:-60px; 
+	left:170px;
+}
+
+/*navbar*/
