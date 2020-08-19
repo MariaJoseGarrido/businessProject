@@ -4,7 +4,7 @@ export const menu = () => {
   <div id="container">
   <nav>
       <ul>
-          <li><a href="#">Home</a></li>
+          <li><a href="#/">Home</a></li>
           <li><a href="#/parents">Zona Adultos</a>
           <!-- First Tier Drop Down -->
           <ul>
@@ -42,9 +42,7 @@ export const menu = () => {
       </ul>
   </nav>
 </div>
-<footer>
-  <img class="hootie-footer" src="./img/footerPPT Hootie Hoo.jpg">
-</footer>
+
   `
   return viewMenu;
 }
