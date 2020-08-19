@@ -1,10 +1,11 @@
 export const menu = () => {
-    const viewMenu = `
-    <div id="container">
+  const viewMenu = `
+  <img class="hootie-logo" src="./img/HeaderPPT Hootie Hoo.jpg">
+  <div id="container">
   <nav>
       <ul>
           <li><a href="#">Home</a></li>
-          <li><a href="#">Zona Adultos</a>
+          <li><a href="#/parents">Zona Adultos</a>
           <!-- First Tier Drop Down -->
           <ul>
               <li><a href="#">Themes</a></li>
@@ -12,7 +13,7 @@ export const menu = () => {
               <li><a href="#">Tutorials</a></li>
           </ul>        
           </li>
-          <li><a href="#">Zona Kids</a>
+          <li><a href="#/kids">Zona Kids</a>
           <!-- First Tier Drop Down -->
           <ul>
               <li><a href="#">algo</a></li>
@@ -40,7 +41,10 @@ export const menu = () => {
           <li><a href="#">Sobre Nosotros</a></li>
       </ul>
   </nav>
-</div> `
-
-return viewMenu;
-} 
+</div>
+<footer>
+  <img class="hootie-footer" src="./img/footerPPT Hootie Hoo.jpg">
+</footer>
+  `
+  return viewMenu;
+}
