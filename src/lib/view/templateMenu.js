@@ -4,14 +4,9 @@ export const menu = () => {
   <div id="container">
   <nav>
       <ul>
-          <li><a href="#">Home</a></li>
+          <li><a href="#/">Home</a></li>
           <li><a href="#/parents">Zona Adultos</a>
-          <!-- First Tier Drop Down -->
-          <ul>
-              <li><a href="#">Themes</a></li>
-              <li><a href="#">Plugins</a></li>
-              <li><a href="#">Tutorials</a></li>
-          </ul>        
+          <!-- First Tier Drop Down -->      
           </li>
           <li><a href="#/kids">Zona Kids</a>
           <!-- First Tier Drop Down -->

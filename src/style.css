@@ -17,32 +17,32 @@ body {
   font-family: 'Baloo Tamma 2', cursive;
 	}
 
-h1 {
+/* h1 {
 	font-size: 60px;
 	text-align: center;
 	color: #FFF;
-}	
+}	 */
 
-h3 {
+/* h3 {
 	font-size: 30px;
 	text-align: center;
 	color: #FFF;
-}
+} */
 
-h3 a {
+/* h3 a {
 	color: #FFF;
-}
+} */
 
-a {
+/* a {
 	color: #FFF;
-}
-
+} */
+/* 
 h1 {
 	margin-top: 100px;
 	text-align:center;
 	font-size:60px;
   font-family: 'Baloo Tamma 2', cursive;
-	}
+	} */
 
 #container {
 	margin: 0 auto;
@@ -67,7 +67,7 @@ nav ul {
 	
 nav ul li {
 	display:inline-block;
-  background-color:#72BAEC;
+  background-color:#572A99;
 	}
 
 nav a {
@@ -98,7 +98,7 @@ nav ul li:hover > ul {
 	
 /* Fisrt Tier Dropdown */
 nav ul ul li {
-	width:170px;
+	width:200px;
 	float:none;
 	display:list-item;
 	position: relative;
@@ -112,3 +112,7 @@ nav ul ul ul li {
 }
 
 /*navbar*/
+
+.templateParents{
+	color: #000000;
+}
