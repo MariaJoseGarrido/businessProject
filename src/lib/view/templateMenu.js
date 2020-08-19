@@ -37,9 +37,7 @@ export const menu = () => {
       </ul>
   </nav>
 </div>
-<footer>
-  <img class="hootie-footer" src="./img/footerPPT Hootie Hoo.jpg">
-</footer>
+
   `
   return viewMenu;
 }
