@@ -1,6 +1,5 @@
 .hootie-logo{
   width: 95%;
-  margin-top: 1%;
 }
 
 .hootie-footer{
@@ -113,14 +112,12 @@ nav ul ul ul li {
 
 /*navbar*/
 
-/* HOME */
+/* TEMPLATE HOME */
 
 .templateHome {
 	background-image: url(./img/fondoHome.jpg);
 	background-repeat: no-repeat;
-	background-attachment: fixed;
 	width: 100%;
-	/* contain: size; */
 	background-size: cover;
 	display: flex;
 	flex-direction: row;
@@ -130,12 +127,18 @@ nav ul ul ul li {
 	align-content: space-between;
 }
 
+.tittlesHome {
+	margin: 0px 0px 25px 0px;
+}
+
 .container-tittle-btn-home {
-	background: red;
+	margin: 10% 0% 0% -8%;
+  width: 30%;
 }
 
 .btn-home {
 	width: 40%;
+	margin: auto;
 }
 button.btn-entrar {
 	border-radius: 20px;
@@ -143,10 +146,12 @@ button.btn-entrar {
 	background: #572A99;
 	border: none;
 	color: #fff;
+	padding: 5px;
+  font-size: 24px;
 }
 
 .container-video-home {
-	background: blue;
+	margin-top: 10%;
 }
 
 /*Carrousel video*/
@@ -169,3 +174,19 @@ ol.carousel-indicators {
 	margin: 0px 0px 20px 0px;
 }
 
+/* TEMPLATE KIDS */
+
+.tittleKids{
+	color: #64249d;
+}
+
+.subtittleKids{
+	color: #72baec;
+}
+
+div#carouselExampleCaptions{
+	margin: auto;
+	width: 50%;
+}
+
+/* FIN TEMPLATE HOME */
