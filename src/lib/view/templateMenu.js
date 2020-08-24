@@ -32,7 +32,7 @@ export const menu = () => {
           </li>
           <li><a href="#">algo que no sabemos</a></li>
           <li><a href="#">algo que no sabemos</a></li>
-          <li><a href="#">Contacto</a></li>
+          <li><a href="#/Contact">Contacto</a></li>
           <li><a href="#">Sobre Nosotros</a></li>
       </ul>
   </nav>

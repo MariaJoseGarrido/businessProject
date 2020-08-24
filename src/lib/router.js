@@ -2,6 +2,7 @@ import { home } from './view/templateHome.js';
 import { parents } from './view/templateParents.js';
 import { menu } from './view/templateMenu.js';
 import { kids } from './view/templateKids.js';
+import { Contact } from './view/templateContact.js';
 
 export const changeRoute = (hash) => {
   if ( hash === '#/'){
@@ -9,6 +10,8 @@ export const changeRoute = (hash) => {
   } else if ( hash === '#/parents'){
     return showTemplate(hash)
   } else if ( hash === '#/kids'){
+    return showTemplate(hash)
+  } else if ( hash === '#/Contact'){
     return showTemplate(hash)
   } else {
     return showTemplate(hash)
@@ -29,7 +32,21 @@ const showTemplate = (hash) => {
     case '#/kids':
       containerRoot.appendChild(kids());
       break;
+    case '#/Contact':
+        containerRoot.appendChild(Contact());
+      break;
     default:
       containerRoot.innerHTML= `<h2>404 NOT FOUND</h2>`    
   }
 }
+
+
+
+
+
+
+
+
+
+
+
