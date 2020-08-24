@@ -13,14 +13,10 @@ body {
 	line-height: 32px;
 	color: #ffffff;
 	word-wrap:break-word !important;
-  font-family: 'Baloo Tamma 2', cursive;
+	font-family: 'Baloo Tamma 2', cursive;
+	overflow-x: hidden;
 	}
 
-h1 {
-/* 	font-size: 60px;
-	text-align: center;
-	color: #FFF; */
-}	
 /* h1 {
 	font-size: 60px;
 	text-align: center;
@@ -39,7 +35,8 @@ h1 {
 
 /* a {
 	color: #FFF;
-} */* 
+} */
+
 h1 {
 	/*margin-top: 100px;
 	text-align:center; */
@@ -168,6 +165,7 @@ p.tittle-video-carrousel {
 }
 
 ol.carousel-indicators {
+	background:#9ed9e5;
 	background: #72baec;
 	margin: 0px 0px 20px 0px;
 }
@@ -189,6 +187,20 @@ ol.carousel-indicators {
 div#carouselExampleCaptions{
 	margin: auto;
 	width: 50%;
+}
+
+.container-pj{
+background-color:#d2c3e0;
+}
+.characters{
+	border-radius: 15px;
+	width: 20em;
+	margin:10px 40px 10px 80px;
+}
+.title{
+	background-color: #a8f4ea;
+	margin-bottom: 0;
+	color: #a5a5a5;
 }
 
 /* FIN TEMPLATE HOME */
@@ -239,6 +251,20 @@ margin-left: 20px;
   justify-content: center;
 }
 
+/*contact*/
+.infoContact{
+	background: linear-gradient(201deg, rgba(72,187,239,1) 34%, rgba(87,42,153,1) 100%);
+
+}
+
+.contactForm{
+	font-size: 18px;
+	text-align: center;
+	height: 15em;
+	background: linear-gradient(201deg, rgba(72,187,239,1) 34%, rgba(87,42,153,1) 100%);
+}
+
+/*contact*/
 /* MEDIAQUERIES */
 
 @media only screen and (max-width: 40em){

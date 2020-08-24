@@ -63,6 +63,18 @@ export const kids = () => {
     <span class="sr-only">Next</span>
   </a>
 </div>
+
+<section>
+<p class="title">Conoce a nuestro escuadrón prevención</p>
+  <div class="container-pj">
+    <div class="row">
+      <div class="col"><img class="characters" src="./img/puma1.png"></div>
+      <div class="col"><img class="characters"  src="./img/jabier1.png"></div>
+      <div class="col"><img class="characters"  src="./img/tomask1.png"></div>
+      <div class="col"><img class="characters"  src="./img/guantrini1.png"></div>
+    </div>
+  </div>
+</section>
   `
 
   divKids.innerHTML = viewKids;
