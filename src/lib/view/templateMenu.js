@@ -8,7 +8,7 @@ export const menu = () => {
           <li><a href="#/parents">Zona Adultos</a>
           <!-- First Tier Drop Down -->
           <ul>
-              <li><a href="#">Themes</a></li>
+              <li><a href="#/quizParents">Trivia</a></li>
               <li><a href="#">Plugins</a></li>
               <li><a href="#">Tutorials</a></li>
           </ul>        
