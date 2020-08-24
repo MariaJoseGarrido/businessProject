@@ -6,6 +6,12 @@ export const menu = () => {
       <ul>
           <li><a href="#/">Home</a></li>
           <li><a href="#/parents">Zona Adultos</a>
+          <!-- First Tier Drop Down -->
+          <ul>
+              <li><a href="#/quizParents">Trivia</a></li>
+              <li><a href="#">Plugins</a></li>
+              <li><a href="#">Tutorials</a></li>
+          </ul>        
           <!-- First Tier Drop Down -->      
           </li>
           <li><a href="#/kids">Zona Kids</a>

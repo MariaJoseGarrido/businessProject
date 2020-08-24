@@ -5,7 +5,7 @@ export const kids = () => {
   const viewKids = `
   <div> 
     <h1 class="tittleKids"> ZONA KIDS! </h1>
-    <p class="subtittleKids">Puma Espuma y el Escuadrón Prevención</p>
+    <p class="subtittleKids">"Puma Espuma y el Escuadrón Prevención"</p>
   </div>
 
   <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
@@ -17,7 +17,7 @@ export const kids = () => {
 
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <iframe width="600" height="320" 
+      <iframe width="600" height="400" 
       src="https://www.youtube.com/embed/kDjrJ5Mu_OY" 
       frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="
       width: 100%;">
@@ -28,7 +28,7 @@ export const kids = () => {
     </div>
 
     <div class="carousel-item">
-      <iframe width="600" height="320" 
+      <iframe width="600" height="400" 
       src="https://www.youtube.com/embed/kDjrJ5Mu_OY" 
       frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="
       width: 100%;">
@@ -39,7 +39,7 @@ export const kids = () => {
     </div>
 
     <div class="carousel-item">
-      <iframe width="600" height="320" 
+      <iframe width="600" height="400" 
       src="https://www.youtube.com/embed/kDjrJ5Mu_OY" 
       frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="
       width: 100%;">

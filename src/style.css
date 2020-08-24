@@ -36,13 +36,13 @@ body {
 /* a {
 	color: #FFF;
 } */
-/* 
+
 h1 {
-	margin-top: 100px;
-	text-align:center;
+	/*margin-top: 100px;
+	text-align:center; */
 	font-size:60px;
   font-family: 'Baloo Tamma 2', cursive;
-	} */
+	} 
 
 #container {
 	margin: 0 auto;
@@ -107,6 +107,7 @@ nav ul ul li {
 	float:none;
 	display:list-item;
 	position: relative;
+	z-index: 999;
 }
 
 /* Second, Third and more Tiers	*/
@@ -125,28 +126,20 @@ nav ul ul ul li {
 	background-repeat: no-repeat;
 	width: 100%;
 	background-size: cover;
-	display: flex;
-	flex-direction: row;
-	flex-wrap: nowrap;
-	justify-content: space-around;
-	align-items: stretch;
-	align-content: space-between;
+}
+
+.container-tittle-btn-home.col-xs-12.col-sm-6, .container-video-home.col-xs-12.col-sm-6 {
+	margin-top: 14rem;
 }
 
 .tittlesHome {
-	margin: 0px 0px 25px 0px;
-}
-
-.container-tittle-btn-home {
-	margin: 10% 0% 0% -8%;
-  width: 30%;
+	text-align: left;
 }
 
 .btn-home {
 	width: 40%;
-	margin: auto;
 }
-button.btn-entrar {
+button.btn-general {
 	border-radius: 20px;
 	width: 100%;
 	background: #572A99;
@@ -154,10 +147,6 @@ button.btn-entrar {
 	color: #fff;
 	padding: 5px;
   font-size: 24px;
-}
-
-.container-video-home {
-	margin-top: 10%;
 }
 
 /*Carrousel video*/
@@ -172,15 +161,20 @@ p.tittle-video-carrousel {
 	margin-bottom: 0;
 	font-size: 16px;
 	line-height: initial;
-	background: #35353547;
+	background: #64249dc4;
 }
 
 ol.carousel-indicators {
 	background:#9ed9e5;
+	background: #72baec;
 	margin: 0px 0px 20px 0px;
 }
 
 /* TEMPLATE KIDS */
+
+.templateKids {
+	text-align: center;
+}
 
 .tittleKids{
 	color: #64249d;
@@ -210,6 +204,19 @@ background-color:#d2c3e0;
 }
 
 /* FIN TEMPLATE HOME */
+
+/* TEMPLATE QUIZ PARENTS */
+
+button.btn-general.btnQuiz {
+	margin: 25px;
+	width: 70%;
+}
+
+p.txt-quiz {
+	color: #572a99;
+}
+
+/* FIN TEMPLATE QUIZ PARENTS */
 
 .templateParents{
 	color:#000;
@@ -258,3 +265,19 @@ margin-left: 20px;
 }
 
 /*contact*/
+/* MEDIAQUERIES */
+
+@media only screen and (max-width: 40em){
+
+	/* Home */
+
+	.templateHome {
+		background-image: url(./img/fondoHome-mobile.jpg);
+	}
+
+	.container-tittle-btn-home, .container-video-home{
+		
+	}
+
+
+}
