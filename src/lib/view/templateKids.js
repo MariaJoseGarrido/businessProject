@@ -3,9 +3,12 @@ export const kids = () => {
   divKids.className="templateKids"
 
   const viewKids = `
-  <div> 
-    <h1 class="tittleKids"> ZONA KIDS! </h1>
-    <p class="subtittleKids">"Puma Espuma y el Escuadrón Prevención"</p>
+  <div class="logo-face" > 
+  <img class="owl-icon" src="./img/Icono_Demo_3.png"> 
+  </div>
+  <div class="intro">
+  <h1 class="tittleKids"> ZONA KIDS! </h1>
+  <p class="text">En esta zona te encuentras con nuestra serie "Puma Espuma y el Escuadrón Prevención, y con juegos".</p>
   </div>
 
   <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
