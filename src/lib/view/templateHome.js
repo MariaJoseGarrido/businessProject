@@ -1,9 +1,9 @@
 export const home = () => {
   const divHome = document.createElement('div');
-  divHome.className="templateHome"
+  divHome.className="templateHome row"
   const viewHome = `
 
-  <div class="container-tittle-btn-home"> 
+  <div class="container-tittle-btn-home  col-xs-12 col-sm-6"> 
 
     <div class="tittlesHome">
       <h1>Bienvenido/a al curso:</h1>
@@ -11,17 +11,17 @@ export const home = () => {
     </div>
 
       <div class="btn-home">
-        <button class="btn-entrar">Lorem ips</button>
+        <button class="btn-general">Lorem ips</button>
       </div>
       
   </div>
 
-  <div class="container-video-home"> 
-  <iframe width="560" height="315" 
-    src="https://www.youtube.com/embed/kDjrJ5Mu_OY" 
-    frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-  </iframe>
-</div>
+  <div class="container-video-home  col-xs-12 col-sm-6"> 
+    <iframe width="560" height="315" 
+        src="https://www.youtube.com/embed/kDjrJ5Mu_OY" 
+        frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+    </iframe>
+  </div>
   
   `
 

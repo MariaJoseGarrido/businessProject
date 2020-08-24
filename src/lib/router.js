@@ -2,11 +2,14 @@ import { home } from './view/templateHome.js';
 import { parents } from './view/templateParents.js';
 import { menu } from './view/templateMenu.js';
 import { kids } from './view/templateKids.js';
+import { quizParents } from './view/templateQuizParents.js';
 
 export const changeRoute = (hash) => {
   if ( hash === '#/'){
     return showTemplate(hash)
   } else if ( hash === '#/parents'){
+    return showTemplate(hash)
+  } else if ( hash === '#/quizParents'){
     return showTemplate(hash)
   } else if ( hash === '#/kids'){
     return showTemplate(hash)
@@ -25,6 +28,9 @@ const showTemplate = (hash) => {
       break;
     case '#/parents':
       containerRoot.appendChild(parents());
+      break;
+    case '#/quizParents':
+      containerRoot.appendChild(quizParents());
       break;
     case '#/kids':
       containerRoot.appendChild(kids());
