@@ -17,9 +17,9 @@ export const menu = () => {
           <li><a href="#/kids">Zona Kids</a>
           <!-- First Tier Drop Down -->
           <ul>
-              <li><a href="#">algo</a></li>
-              <li><a href="#">algo</a></li>
-              <li><a href="#">algo</a>
+              <li><a href="#/learn">Aprende</a></li>
+              <li><a href="#/games">Juegos</a></li>
+              <li><a href="#/download">Descarga y Pinta</a>
             <!-- Second Tier Drop Down -->
               <ul>
                   <li><a href="#">algo </a></li>
@@ -38,7 +38,7 @@ export const menu = () => {
           </li>
           <li><a href="#">algo que no sabemos</a></li>
           <li><a href="#">algo que no sabemos</a></li>
-          <li><a href="#/Contact">Contacto</a></li>
+          <li><a href="#/Contact">Sobre Nosotros/Contacto</a></li>
           <li><a href="#">Sobre Nosotros</a></li>
       </ul>
   </nav>
