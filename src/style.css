@@ -216,6 +216,11 @@ p.txt-quiz {
 	color: #572a99;
 }
 
+.container-img-quiz.col-xs-12.col-sm-4, .container-btns-quiz.col-xs-12.col-sm-4{
+	text-align: center;
+}
+
+
 /* FIN TEMPLATE QUIZ PARENTS */
 
 .templateParents{
@@ -265,6 +270,11 @@ margin-left: 20px;
 }
 
 /*contact*/
+
+
+
+
+
 /* MEDIAQUERIES */
 
 @media only screen and (max-width: 40em){
