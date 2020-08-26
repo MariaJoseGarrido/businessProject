@@ -191,6 +191,7 @@ div#carouselExampleCaptions{
 
 .container-pj{
 background-color:#d2c3e0;
+margin-bottom: 25px;
 }
 .characters{
 	border-radius: 15px;
@@ -201,6 +202,10 @@ background-color:#d2c3e0;
 	background-color: #a8f4ea;
 	margin-bottom: 0;
 	color: #a5a5a5;
+}
+
+.card-text{
+	color:black;
 }
 
 /* FIN TEMPLATE HOME */

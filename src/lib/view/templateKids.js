@@ -74,25 +74,36 @@ export const kids = () => {
 </section>
 
 <section>
+<p class="title">Aprendamos sobre el coronavirus!</p>
   <div class="card-group">
     <div class="card">
-      <img src="..." class="card-img-top" alt="...">
+      <img src="./img/covid.png" class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title">¿Qué es el coronavirus?</h5>
-        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <p class="card-text text-left">Es un virus nuevo, los científicos y médicos siguen aprendiendo acerca de él. 
+        Durante el último tiempo, el virus ha enfermado a muchísimas personas. Los científicos y médicos están intentando 
+        aprender más para poder ayudar a las personas que se enferman y poder prevenir la enfermedad, también están trabajando 
+        arduamente para ayudar a las personas a mantenerse saludables.</p>
       </div>
     </div>
     <div class="card">
-      <img src="..." class="card-img-top" alt="...">
-      <div class="card-body">
+      <img src="./img/lavar.png" class="card-img-top" alt="...">
+      <div class="card-text card-body"">
         <h5 class="card-title">Previene el coronavirus</h5>
-        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>      </div>
+        <ul class="list-group text-left">
+        <li class="list-group-item">Lava tus manos con jabón mientras cantas una canción 🎵</li>
+        <li class="list-group-item">Evita tocar tu cara, nariz y ojos ✋</li>
+        <li class="list-group-item">Mantén distancia con otras personas 😊 😊</li>
+        <li class="list-group-item">En caso de tos o estornudo, hazlo sobre el antebrazo o en pañuelo
+        desechable 🤧 </li>
+        <li class="list-group-item">No salgas sin mascarilla 😷</li>
+      </ul></div>
     </div>
     <div class="card">
-      <img src="..." class="card-img-top" alt="...">
+      <img src="./img/puma-covid.png" class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title">algo del coronavirus</h5>
-        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+        <p class="card-text text-left">añadir algo</p>
       </div>
     </div>
   </div>
