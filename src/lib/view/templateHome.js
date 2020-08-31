@@ -27,6 +27,10 @@ export const home = () => {
       
   </div>
 
+  <div>
+  <img src="./img/buhoo.png" class="card-img-top" alt="...">
+  </div>
+
   <div class="container-video-home  col-xs-12 col-sm-6"> 
     <iframe width="560" height="315" 
         src="https://www.youtube.com/embed/kDjrJ5Mu_OY" 
@@ -34,6 +38,7 @@ export const home = () => {
     </iframe>
   </div>
 
+<<<<<<< HEAD
 </div>
 
 <footer>
@@ -68,6 +73,9 @@ export const home = () => {
       </p>
     </div>
   </footer>
+=======
+  
+>>>>>>> 694636cebd315eae65c78f4463c53880dd0791e1
   `
 
 
