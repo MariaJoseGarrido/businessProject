@@ -16,12 +16,17 @@ export const home = () => {
       
   </div>
 
+  <div>
+  <img src="./img/buhoo.png" class="card-img-top" alt="...">
+  </div>
+
   <div class="container-video-home  col-xs-12 col-sm-6"> 
     <iframe width="560" height="315" 
         src="https://www.youtube.com/embed/kDjrJ5Mu_OY" 
         frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
     </iframe>
   </div>
+
   
   `
 
