@@ -1,13 +1,16 @@
 export const quizParents = () => {
   const divQuizParents = document.createElement("div");
-  divQuizParents.className = "templateQuizParents row";
+  divQuizParents.className = "templateQuizParents";
   const viewQuizParents = `
 
+  <div class="row">
   <div class="container-txt-quiz  col-xs-12 col-sm-4"> 
-    <p class="txt-quiz"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
-    ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut 
-    aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore 
-    eu fugiat nulla pariatur </p>
+    <p class="txt-quiz"> 
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
+      ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut 
+      aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore 
+      eu fugiat nulla pariatur 
+    </p>
   </div>
 
   <div class="container-img-quiz  col-xs-12 col-sm-4"> 
@@ -36,20 +39,50 @@ export const quizParents = () => {
           </button>
         </div>
         <div class="modal-body">
-          ...
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
+          ut labore et dolore magna aliqua
         </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-          <button type="button" class="btn btn-primary">Save changes</button>
-        </div>
+        
       </div>
     </div>
   </div>
+
+</div>
+
+<footer>
+  <div class="logoHootieHooFooter"> 
+    <a href="#/"> 
+    <img class="logo-footer" src="./img/Icono_Demo_1.png" alt="Logo del sitio"> 
+  </div>
+
+  <div class="menuFooter">
+    <p class="opmenuFooter">
+      <a href="#/"> Home </a>
+        | &nbsp;
+      <a href="#/parents"> Zona adultos </a>
+        | &nbsp;
+      <a href="#/kids"> Zona niños </a>
+    </p>
+
+    <p class="menuiconsFooter"> 
+      <a href="#/"> 
+        <i class="fa fa-home iconFooter"> </i> 
+      </a>
+      <a href="#/Contact"> 
+        <i class="fas fa-phone iconFooter"></i> 
+      </a>
+      <a href="https://www.youtube.com/channel/UC0Z1Czogj0CW3S0XbRyv_0w" target="_blank"> 
+      <i class="fab fa-youtube"></i>
+      </a>
+    </p>
+
+      <p class="copyrigth">
+        ©️ 2020 Hootie Hoo™️  | Todos los derechos reservados.
+      </p>
+    </div>
+  </footer>
   `;
 
-  /*   <footer>
-  <img class="hootie-footer" src="./img/footerPPT Hootie Hoo.jpg">
-  </footer> */
 
   divQuizParents.innerHTML = viewQuizParents;
 

@@ -69,8 +69,69 @@ export const Contact = () => {
       <p> <i class="fas fa-map-marker-alt"></i> Santiago, Chile</p>
       <p><i class="fas fa-envelope"></i> contacto@hootiehoo.cl</p>
       <p><i class="fas fa-envelope"></i> ventas@hootiehoo.cl</p>
-      <p></p>
+      
+      <div class="contactIcon">
+        <p> 
+          <a href="https://www.instagram.com/hootiehoo.cl/" target="_blank" rel="noopener noreferrer">
+            <i class="fab fa-instagram-square"></i>
+          </a>
+        </p>
+        <p> 
+          <a href="https://www.youtube.com/channel/UC0Z1Czogj0CW3S0XbRyv_0w" target="_blank" rel="noopener noreferrer">
+            <i class="fab fa-youtube-square"></i>
+          </a>
+        </p>
+        <p> 
+          <a href="https://www.facebook.com/Hootie-Hoo-436971306751773" target="_blank" rel="noopener noreferrer">
+            <i class="fab fa-facebook-square"></i>
+          </a>
+        </p>
+        <p> 
+          <a href="https://twitter.com/HootieHooSpA" target="_blank" rel="noopener noreferrer">
+            <i class="fab fa-twitter-square"></i>
+          </a>    
+        </p>
+        <p> 
+          <a href="https://www.linkedin.com/company/hootiehoo/" target="_blank" rel="noopener noreferrer">
+            <i class="fab fa-linkedin"></i>
+          </a> 
+        </p>
+      </div>
     </div>
+
+
+    <footer>
+    <div class="logoHootieHooFooter"> 
+      <a href="#/"> 
+      <img class="logo-footer" src="./img/Icono_Demo_1.png" alt="Logo del sitio"> 
+    </div>
+  
+    <div class="menuFooter">
+      <p class="opmenuFooter">
+        <a href="#/"> Home </a>
+          | &nbsp;
+        <a href="#/parents"> Zona adultos </a>
+          | &nbsp;
+        <a href="#/kids"> Zona niños </a>
+      </p>
+  
+      <p class="menuiconsFooter"> 
+        <a href="#/"> 
+          <i class="fa fa-home iconFooter"> </i> 
+        </a>
+        <a href="#/Contact"> 
+          <i class="fas fa-phone iconFooter"></i> 
+        </a>
+        <a href="https://www.youtube.com/channel/UC0Z1Czogj0CW3S0XbRyv_0w" target="_blank"> 
+        <i class="fab fa-youtube"></i>
+        </a>
+      </p>
+  
+        <p class="copyrigth">
+          ©️ 2020 Hootie Hoo™️  | Todos los derechos reservados.
+        </p>
+      </div>
+    </footer>
   `;
 
   divContact.innerHTML = viewContact;

@@ -11,59 +11,61 @@ export const kids = () => {
   <p class="text">En esta zona te encuentras con nuestra serie "Puma Espuma y el Escuadrón Prevención, y con juegos".</p>
   </div>
 
-  <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
-    <ol class="carousel-indicators">
-      <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
-      <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
-      <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
-    </ol>
+  <div class="container-video-kids"> 
+    <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+        <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+      </ol>
 
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <iframe width="600" height="400" 
-      src="https://www.youtube.com/embed/kDjrJ5Mu_OY" 
-      frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="
-      width: 100%;">
-    </iframe>
-      <div class="carousel-caption d-none d-md-block">
-        <p class="tittle-video-carrousel">"Ganémosle al virus, Trailer"</p>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <iframe width="600" height="400" 
+        src="https://www.youtube.com/embed/kDjrJ5Mu_OY" 
+        frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="
+        width: 100%;">
+      </iframe>
+        <div class="carousel-caption d-none d-md-block">
+          <p class="tittle-video-carrousel">"Ganémosle al virus, Trailer"</p>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <iframe width="600" height="400" 
+        src="https://www.youtube.com/embed/kDjrJ5Mu_OY" 
+        frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="
+        width: 100%;">
+      </iframe>
+        <div class="carousel-caption d-none d-md-block">
+          <p class="tittle-video-carrousel">"Puma Espuma y el Escuadrón Prevención en...¡La corona es nuestra!"</p>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <iframe width="600" height="400" 
+        src="https://www.youtube.com/embed/kDjrJ5Mu_OY" 
+        frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="
+        width: 100%;">
+      </iframe>
+        <div class="carousel-caption d-none d-md-block">
+          <p class="tittle-video-carrousel">"Puma Espuma y el Escuadrón Prevención en...Una gran aventura en un mundo pequeño"</p>
+        </div>
       </div>
     </div>
 
-    <div class="carousel-item">
-      <iframe width="600" height="400" 
-      src="https://www.youtube.com/embed/kDjrJ5Mu_OY" 
-      frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="
-      width: 100%;">
-    </iframe>
-      <div class="carousel-caption d-none d-md-block">
-        <p class="tittle-video-carrousel">"Puma Espuma y el Escuadrón Prevención en...¡La corona es nuestra!"</p>
-      </div>
-    </div>
+    <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
 
-    <div class="carousel-item">
-      <iframe width="600" height="400" 
-      src="https://www.youtube.com/embed/kDjrJ5Mu_OY" 
-      frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="
-      width: 100%;">
-    </iframe>
-      <div class="carousel-caption d-none d-md-block">
-        <p class="tittle-video-carrousel">"Puma Espuma y el Escuadrón Prevención en...Una gran aventura en un mundo pequeño"</p>
-      </div>
-    </div>
+    <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
   </div>
 
-  <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-
-  <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
 </div>
-
 <section>
 <p class="title">Conoce a nuestro escuadrón prevención</p>
   <div class="container-pj">
@@ -100,6 +102,40 @@ export const kids = () => {
     </div>
   </div>
 </section>
+
+<footer>
+  <div class="logoHootieHooFooter"> 
+    <a href="#/"> 
+    <img class="logo-footer" src="./img/Icono_Demo_1.png" alt="Logo del sitio"> 
+  </div>
+
+  <div class="menuFooter">
+    <p class="opmenuFooter">
+      <a href="#/"> Home </a>
+        | &nbsp;
+      <a href="#/parents"> Zona adultos </a>
+        | &nbsp;
+      <a href="#/kids"> Zona niños </a>
+    </p>
+
+    <p class="menuiconsFooter"> 
+      <a href="#/"> 
+        <i class="fa fa-home iconFooter"> </i> 
+      </a>
+      <a href="#/Contact"> 
+        <i class="fas fa-phone iconFooter"></i> 
+      </a>
+      <a href="https://www.youtube.com/channel/UC0Z1Czogj0CW3S0XbRyv_0w" target="_blank"> 
+      <i class="fab fa-youtube"></i>
+      </a>
+    </p>
+
+      <p class="copyrigth">
+        ©️ 2020 Hootie Hoo™️  | Todos los derechos reservados.
+      </p>
+    </div>
+  </footer>
+
   `
 
   divKids.innerHTML = viewKids;
