@@ -3,8 +3,11 @@ export const kids = () => {
   divKids.className="templateKids"
 
   const viewKids = `
-    <div> 
-      <h1 class="tittleKids"> ZONA KIDS! </h1>
+    <div class="body-kids"> 
+    <h1 class="punk">
+    <span>Z</span><span>o</span><span>n</span><span>a</span><span> 
+    </span><span>K</span><span>i</span><span>d</span><span>s</span><span>!</span>
+    </h1>
       <p class="subtittleKids">"Puma Espuma y el Escuadrón Prevención"</p>
     </div>
 
@@ -65,10 +68,28 @@ export const kids = () => {
   <p class="title text-left"> ✨ Conoce a nuestro escuadrón prevención</p>
     <div class="container-pj">
       <div class="row">
-        <div class="col"><img class="characters" src="./img/puma1.png"></div>
-        <div class="col"><img class="characters"  src="./img/jabier1.png"></div>
-        <div class="col"><img class="characters"  src="./img/tomask1.png"></div>
-        <div class="col"><img class="characters"  src="./img/guantrini1.png"></div>
+        <div class="col"><img class="characters" src="./img/puma1.png">
+        <h5 class="card-title">“¡Vamos todos juntos ahora!”</h5>
+        <p class="text-left card-body">Líder por naturaleza, valiente y aventurero, 
+        intrépido. Le gusta hacer cosas nuevas y creativas. Enfrenta con valentía al coronavirus. Sin embargo, a veces su 
+        intrepidez le juega malas pasadas y se transforma en ansiedad.</p></div>
+        <p></p>
+        <div class="col"><img class="characters"  src="./img/jabier1.png">
+        <h5 class="card-title">“Estaré ahí cuando me necesiten.”</h5>
+        <p class="text-left card-body">Tímido, sonriente y tranquilo. Le gusta compartir con sus amig@s y 
+        comer cosas ricas. Es el más asustadizo del grupo frente a coronavirus, pero sabe que en el fondo tiene el mayor poder de 
+        todo el equipo, ya que no sólo puede proteger, sino que también destruir al virus. Su presencia es indispensable.</p></div>
+        <div class="col"><img class="characters"  src="./img/tomask1.png">
+        <h5 class="card-title">“Tranquilos. Todo esté bien”</h5>
+        <p class="text-left card-body">Gracioso, cercano, amistoso, elocuente. Siempre sabe cómo hacer 
+        reír y verle el lado positivo a las cosas y mantener la calma. Frente a coronavirus, busca bajarle la gravedad a la situación y calmar 
+        a los humanos protegiendo su boca.</p></div>
+        <div class="col"><img class="characters"  src="./img/guantrini1.png">
+        <h5 class="card-title">“No teman, ¡Guantrini ya está aquí!</h5>
+        <p class="text-left card-body">Directa, fuerte y protectora. Es la más temeraria del grupo. 
+        Se enfrenta directamente al Coronavirus sin miedo, 
+        ya que sabe que su rol principal es proteger la piel de los humanos.</p>
+</div>
       </div>
     </div>
   </section>
