@@ -5,40 +5,32 @@ export const home = () => {
 
 <div class="row">
 
-  <div class="container-tittle-btn-home  col-xs-12 col-sm-6"> 
-
-    <div class="tittlesHome">
-      <h1>Bienvenido/a: </h1>
-      <h2>Ingresa como: </h2>
-    </div>
-
-      <div class="btn-home">
-        <a href="#/parents"> 
-          <button class="btn-general"> <img src="./img/icon-btn-parents.png" alt="" style="width:30px;height:30px">
-            Adulto
-          </button>
-        </a>
-        <a href="#/kids"> 
-          <button class="btn-general"> <img src="./img/icon-btn-chid.png" alt="" style="width:30px;height:30px">
-            Niño
-          </button>
-        </a>
-      </div>
-      
-  </div>
-
-  <div>
+  <div class="container-hootie-bienv  col-xs-12 col-sm-6">
   <img src="./img/buhoo.png" class="card-img-top" alt="...">
   </div>
 
-  <div class="container-video-home  col-xs-12 col-sm-6"> 
-    <iframe width="560" height="315" 
-        src="https://www.youtube.com/embed/kDjrJ5Mu_OY" 
-        frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-    </iframe>
+  <div class="container-tittle-btn-home  col-xs-12 col-sm-6"> 
+
+  <div class="tittlesHome">
+    <h1>Bienvenido/a: </h1>
+    <h2>Ingresa como: </h2>
   </div>
 
-<<<<<<< HEAD
+    <div class="btn-home">
+      <a href="#/parents"> 
+        <button class="btn-general"> <img src="./img/icon-btn-parents.png" alt="" style="width:30px;height:30px">
+          Adulto
+        </button>
+      </a>
+      <a href="#/kids"> 
+        <button class="btn-general"> <img src="./img/icon-btn-chid.png" alt="" style="width:30px;height:30px">
+          Niño
+        </button>
+      </a>
+    </div>
+    
+</div>
+  
 </div>
 
 <footer>
@@ -73,9 +65,7 @@ export const home = () => {
       </p>
     </div>
   </footer>
-=======
   
->>>>>>> 694636cebd315eae65c78f4463c53880dd0791e1
   `
 
 

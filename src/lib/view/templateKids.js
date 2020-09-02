@@ -3,7 +3,6 @@ export const kids = () => {
   divKids.className="templateKids"
 
   const viewKids = `
-<<<<<<< HEAD
   <div class="logo-face" > 
   <img class="owl-icon" src="./img/Icono_Demo_3.png"> 
   </div>
@@ -13,13 +12,7 @@ export const kids = () => {
   </div>
 
   <div class="container-video-kids"> 
-=======
-    <div> 
-      <h1 class="tittleKids"> ZONA KIDS! </h1>
-      <p class="subtittleKids">"Puma Espuma y el Escuadrón Prevención"</p>
-    </div>
 
->>>>>>> 694636cebd315eae65c78f4463c53880dd0791e1
     <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
       <ol class="carousel-indicators">
         <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
@@ -61,7 +54,6 @@ export const kids = () => {
         </div>
       </div>
     </div>
-<<<<<<< HEAD
 
     <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -75,26 +67,6 @@ export const kids = () => {
   </div>
 
 </div>
-<section>
-<p class="title">Conoce a nuestro escuadrón prevención</p>
-  <div class="container-pj">
-    <div class="row">
-      <div class="col"><img class="characters" src="./img/puma1.png"></div>
-      <div class="col"><img class="characters"  src="./img/jabier1.png"></div>
-      <div class="col"><img class="characters"  src="./img/tomask1.png"></div>
-      <div class="col"><img class="characters"  src="./img/guantrini1.png"></div>
-=======
-
-    <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-
-    <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="sr-only">Next</span>
-    </a>
-  </div>
 
   <section>
   <p class="title text-left"> ✨ Conoce a nuestro escuadrón prevención</p>
@@ -105,7 +77,6 @@ export const kids = () => {
         <div class="col"><img class="characters"  src="./img/tomask1.png"></div>
         <div class="col"><img class="characters"  src="./img/guantrini1.png"></div>
       </div>
->>>>>>> 694636cebd315eae65c78f4463c53880dd0791e1
     </div>
   </section>
 
@@ -178,7 +149,6 @@ export const kids = () => {
       </div>
     </div>
   </div>
-<<<<<<< HEAD
 </section>
 
 <footer>
@@ -214,9 +184,7 @@ export const kids = () => {
     </div>
   </footer>
 
-=======
   </section>
->>>>>>> 694636cebd315eae65c78f4463c53880dd0791e1
   `
 
   divKids.innerHTML = viewKids;
