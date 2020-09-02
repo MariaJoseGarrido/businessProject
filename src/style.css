@@ -177,8 +177,13 @@ button.btn-general:hover {
 
 /* TEMPLATE KIDS */
 
+.body-kids{
+	background-color:#FFFCA0;
+}
+
 .templateKids {
 	text-align: center;
+	background-color:#FFFCA0;
 }
 
 .tittleKids{
@@ -192,6 +197,7 @@ button.btn-general:hover {
 div#carouselExampleCaptions{
 	margin: auto;
 	width: 50%;
+	
 }
 
 .container-pj{
@@ -599,3 +605,168 @@ p.menuiconsFooter a {
 	}
 
 }
+
+
+
+.punk {
+  font-size:6vw;
+	text-align:center;
+	background-color: #FFFCA0;
+}
+
+.punk span {
+  display:inline-block;
+  margin:0 .05em;
+  padding:0 .15em;
+  min-width:.25em;
+}
+
+.punk span:first-child,
+.punk span:last-child {
+  position:relative;
+}
+
+.punk span:first-child:before {
+  content:"";
+  border:solid 2px rgb(83, 77, 77);
+  border-top-width:.2em;
+  border-radius:.25em;
+  height:.5em;
+  left:-0.1em;
+  position:absolute;
+  top:-0.25em;
+  transform:rotate(20deg);
+  width:.15em;
+}
+
+.punk span:first-child:after {
+  background-color:inherit;
+  content:"";
+  height:.15em;
+  left:.05em;
+  position:absolute;
+  top:.05em;
+  transform:rotate(20deg);
+  width:.1em;
+}
+
+.punk span:last-child:before {
+  content:"";
+  border:solid 2px rgb(83, 77, 77);
+  border-top-width:.2em;
+  border-radius:.25em;
+  height:.6em;
+  right:-0.1em;
+  position:absolute;
+  top:-0.25em;
+  transform:rotate(-20deg);
+  width:.15em;
+}
+
+.punk span:last-child:after {
+  background-color:inherit;
+  content:"";
+  height:.15em;
+  right:.05em;
+  position:absolute;
+  top:.05em;
+  transform:rotate(-20deg);
+  width:.1em;
+}
+
+/* font */
+
+.punk span:nth-child(5n+1) {
+  font-family:serif;
+  font-size:1.25em;
+}
+
+.punk span:nth-child(5n+2) {
+  font-family:sans-serif;
+}
+
+.punk span:nth-child(5n+3) {
+  font-family:monospace;
+  font-size:1.25em;
+}
+
+.punk span:nth-child(5n+4) {
+  font-family:serif;
+  font-style:italic;
+}
+
+.punk span:nth-child(5n+5) {
+  font-family:fantasy;
+}
+
+/* shadow */
+
+.punk span:nth-child(4n+1) {
+  box-shadow:.05em .05em currentColor;
+}
+
+/* rotate */
+
+.punk span:nth-child(3n+1) {
+  transform:rotate(5deg);
+}
+
+.punk span:nth-child(3n+3) {
+  transform:rotate(-5deg);
+}
+
+/* colour schemes */
+
+.punk span:nth-child(12n+1) {
+  background-color:rgb(169, 255, 134);
+  color:rgb(243, 176, 150);
+}
+
+.punk span:nth-child(12n+2) {
+  background-color:rgb(252, 201, 167);
+	color:rgb(207, 239, 248);
+	box-shadow:.05em .05em currentColor;
+}
+
+.punk span:nth-child(12n+3) {
+  background-color:rgb(211, 193, 255);
+	color:rgb(79, 69, 226);
+	box-shadow:.05em .05em currentColor;
+}
+
+.punk span:nth-child(12n+4) {
+  background-color:rgb(240, 135, 140);
+	color:#ff0;
+	box-shadow:.05em .05em currentColor;
+}
+
+.punk span:nth-child(12n+6) {
+  background-color:#ff0;
+	color:rgb(211, 144, 184);
+	box-shadow:.05em .05em currentColor;
+}
+
+.punk span:nth-child(12n+7) {
+  background-color:rgb(94, 223, 62);
+	color:rgb(151, 112, 167);
+	box-shadow:.05em .05em currentColor;
+}
+
+.punk span:nth-child(12n+8) {
+  background-color:rgb(155, 214, 241);
+	color:rgb(241, 128, 128);
+	box-shadow:.05em .05em currentColor;
+}
+
+.punk span:nth-child(12n+9) {
+  background-color:rgb(233, 114, 185);
+	color:rgb(123, 201, 221);
+	box-shadow:.05em .05em currentColor;
+}
+
+.punk span:nth-child(12n+10) {
+  background-color:rgb(243, 196, 125);
+	color:rgb(161, 243, 202);
+	box-shadow:.05em .05em currentColor;
+}
+

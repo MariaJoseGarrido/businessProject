@@ -60,6 +60,16 @@ export const home = () => {
       </a>
     </p>
 
+      <div class="btn-home">
+        <button class="btn-general">Lorem ips</button>
+      </div>
+      
+  </div>
+
+  <div>
+  <img src="./img/buhoo.png" class="card-img-top" alt="...">
+
+
       <p class="copyrigth">
         ©️ 2020 Hootie Hoo™️  | Todos los derechos reservados.
       </p>
@@ -71,6 +81,8 @@ export const home = () => {
 
 
   divHome.innerHTML = viewHome;
+
+
 
   return divHome;
 }
