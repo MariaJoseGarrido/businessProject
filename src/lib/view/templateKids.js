@@ -134,7 +134,7 @@ export const kids = () => {
     </div>
   </section>
 
-  <section>
+  <section id="download">
   <p class="title text-left"> 🖨 Imprime los personajes del escuadrón y llenalos como quieras, compártelo en las redes sociales,
   no olvides etiquetarnos para ver tus hermosos diseños!</p>
     <div class="card-group">

@@ -4,12 +4,12 @@ export const games = () => {
   
     const viewGames = `
 
-    <h1>Juegos</h1>
-    <h3>Quieres divertirte mientras aprendes? Acá podrás hacerlo</h3>
+    <h1 class="titleGame">Juegos</h1>
+    <h3 class="titleGame">Quieres divertirte mientras aprendes? Acá podrás hacerlo!</h3>
 
-    <h2>Rompecabezas del Escuadrón prevención</h2>
+    <h2 class="titleGame">Rompecabezas del Escuadrón prevención</h2>
 
-    <svg width="700" height="700" id="entorno">
+    <svg width="700" height="650" id="entorno">
           <g id="basecolor"><image xlink:href="http://imgfz.com/i/m7hyj1Q.jpeg" width="450" height="450" x="170" y="100"></g>
       <g class="father" id="0"><image xlink:href="http://imgfz.com/i/2aKTCtj.jpeg" class="movil"></g>
       <g class="father" id="1"><image xlink:href="http://imgfz.com/i/b8oWriz.jpeg" class="movil"></g>
@@ -21,12 +21,13 @@ export const games = () => {
       <g class="father" id="7"><image xlink:href="http://imgfz.com/i/6SqmuhE.jpeg" class="movil"></g>
       <g class="father" id="8"><image xlink:href="http://imgfz.com/i/WHlM61j.jpeg" class="movil"></g>
     </svg>
-  
-  
+    <a class="twitter-share-button m-1 btn-info" href="https://twitter.com/intent/tweet?text=Estoy jugando en Hootie Hoo!" target="blank">compartir en Twitter</a>  
+    <a class="btn-info" href="https://www.facebook.com/sharer/sharer.php?u=https://hootie.cl" target="blank">Comparte en Facebook</a>  
+    <a class="btn-info" href="https://api.whatsapp.com/send?text=Estoy jugando en%20https://hootie.cl" target="blank">Compartir en Whatsapp</a>
 
       <br>
       <br>
-      <h1>¡Vamos a ver cómo está tu memoria!</h1>
+      <h1 class="titleGame">¡Vamos a ver cómo está tu memoria!</h1>
 
       <div id="pairGames">
       <div id="containGame">
@@ -67,6 +68,38 @@ export const games = () => {
       </div>
     </div>
 
+            <footer>
+        <div class="logoHootieHooFooter"> 
+            <a href="#/"> 
+            <img class="logo-footer" src="./img/Icono_Demo_1.png" alt="Logo del sitio"> 
+        </div>
+
+        <div class="menuFooter">
+            <p class="opmenuFooter">
+            <a href="#/"> Home </a>
+                | &nbsp;
+            <a href="#/parents"> Zona adultos </a>
+                | &nbsp;
+            <a href="#/kids"> Zona niños </a>
+            </p>
+
+            <p class="menuiconsFooter"> 
+            <a href="#/"> 
+                <i class="fa fa-home iconFooter"> </i> 
+            </a>
+            <a href="#/Contact"> 
+                <i class="fas fa-phone iconFooter"></i> 
+            </a>
+            <a href="https://www.youtube.com/channel/UC0Z1Czogj0CW3S0XbRyv_0w" target="_blank"> 
+            <i class="fab fa-youtube"></i>
+            </a>
+            </p>
+
+            <p class="copyrigth">
+                ©️ 2020 Hootie Hoo™️  | Todos los derechos reservados.
+            </p>
+            </div>
+        </footer>
     `;
 
     divGames.innerHTML = viewGames;

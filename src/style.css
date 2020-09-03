@@ -311,6 +311,9 @@ image.movil {
 	opacity: 0.6;
 }
 
+.titleGame{
+  color:#525050;
+}
 
 /* TEMPLATE QUIZ PARENTS */
 
@@ -392,6 +395,12 @@ button.close span{
 .modal-body {
 	background: #a8f4ea;
 	color: #343a40;
+}
+
+
+.btn-info{
+  border-radius: 10px;
+  padding: 5px;
 }
 
 /* FIN MODAL */

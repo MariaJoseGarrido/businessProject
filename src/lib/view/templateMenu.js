@@ -17,7 +17,7 @@ export const menu = () => {
           <ul>
               <li><a href="#aprende">Aprende</a></li>
               <li><a href="#/games">Juegos</a></li>
-              <li><a href="#/download">Descarga y Pinta</a>
+              <li><a href="#download">Descarga y Pinta</a>
             <!-- Second Tier Drop Down -->
               </li>
           </ul>
