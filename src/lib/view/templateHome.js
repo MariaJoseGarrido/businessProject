@@ -34,49 +34,38 @@ export const home = () => {
 </div>
 
 <footer>
-  <div class="logoHootieHooFooter"> 
+<div class="logoHootieHooFooter"> 
+  <a href="#/"> 
+  <img class="logo-footer" src="./img/Icono_Demo_1.png" alt="Logo del sitio"> 
+</div>
+
+<div class="menuFooter">
+  <p class="opmenuFooter">
+    <a href="#/"> Home </a>
+      | &nbsp;
+    <a href="#/parents"> Zona adultos </a>
+      | &nbsp;
+    <a href="#/kids"> Zona niños </a>
+  </p>
+
+  <p class="menuiconsFooter"> 
     <a href="#/"> 
-    <img class="logo-footer" src="./img/Icono_Demo_1.png" alt="Logo del sitio"> 
-  </div>
+      <i class="fa fa-home iconFooter"> </i> 
+    </a>
+    <a href="#/Contact"> 
+      <i class="fas fa-phone iconFooter"></i> 
+    </a>
+    <a href="https://www.youtube.com/channel/UC0Z1Czogj0CW3S0XbRyv_0w" target="_blank"> 
+    <i class="fab fa-youtube"></i>
+    </a>
+  </p>
 
-  <div class="menuFooter">
-    <p class="opmenuFooter">
-      <a href="#/"> Home </a>
-        | &nbsp;
-      <a href="#/parents"> Zona adultos </a>
-        | &nbsp;
-      <a href="#/kids"> Zona niños </a>
+    <p class="copyrigth">
+      ©️ 2020 Hootie Hoo™️  | Todos los derechos reservados.
     </p>
-
-    <p class="menuiconsFooter"> 
-      <a href="#/"> 
-        <i class="fa fa-home iconFooter"> </i> 
-      </a>
-      <a href="#/Contact"> 
-        <i class="fas fa-phone iconFooter"></i> 
-      </a>
-      <a href="https://www.youtube.com/channel/UC0Z1Czogj0CW3S0XbRyv_0w" target="_blank"> 
-      <i class="fab fa-youtube"></i>
-      </a>
-    </p>
-
-      <div class="btn-home">
-        <button class="btn-general">Lorem ips</button>
-      </div>
-      
   </div>
-
-  <div>
-  <img src="./img/buhoo.png" class="card-img-top" alt="...">
-
-
-      <p class="copyrigth">
-        ©️ 2020 Hootie Hoo™️  | Todos los derechos reservados.
-      </p>
-    </div>
-  </footer>
-  
-  `
+</footer>
+`
 
 
 

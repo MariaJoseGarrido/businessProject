@@ -3,21 +3,13 @@ export const kids = () => {
   divKids.className="templateKids"
 
   const viewKids = `
-  <div class="logo-face" > 
-  <img class="owl-icon" src="./img/Icono_Demo_3.png"> 
-  </div>
-  <div class="intro">
-  <h1 class="tittleKids"> ZONA KIDS! </h1>
-  <p class="text">En esta zona te encuentras con nuestra serie "Puma Espuma y el Escuadrón Prevención, y con juegos".</p>
-  </div>
-
-  <div class="container-video-kids"> 
+    <br>
     <div class="body-kids"> 
     <h1 class="punk">
     <span>Z</span><span>o</span><span>n</span><span>a</span><span> 
     </span><span>K</span><span>i</span><span>d</span><span>s</span><span>!</span>
     </h1>
-      <p class="subtittleKids">"Puma Espuma y el Escuadrón Prevención"</p>
+    <br>
     </div>
 
     <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
@@ -41,7 +33,7 @@ export const kids = () => {
 
       <div class="carousel-item">
         <iframe width="600" height="400" 
-        src="https://www.youtube.com/embed/kDjrJ5Mu_OY" 
+        src="https://www.youtube.com/embed/G2BHb6kWnRc" 
         frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="
         width: 100%;">
       </iframe>
@@ -52,7 +44,7 @@ export const kids = () => {
 
       <div class="carousel-item">
         <iframe width="600" height="400" 
-        src="https://www.youtube.com/embed/kDjrJ5Mu_OY" 
+        src="https://www.youtube.com/embed/tuILs6Zedco" 
         frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="
         width: 100%;">
       </iframe>

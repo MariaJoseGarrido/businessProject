@@ -9,8 +9,6 @@ export const menu = () => {
           <!-- First Tier Drop Down -->
           <ul>
               <li><a href="#/quizParents">Trivia</a></li>
-              <li><a href="#">Plugins</a></li>
-              <li><a href="#">Tutorials</a></li>
           </ul>        
           <!-- First Tier Drop Down -->      
           </li>
@@ -21,23 +19,9 @@ export const menu = () => {
               <li><a href="#/games">Juegos</a></li>
               <li><a href="#/download">Descarga y Pinta</a>
             <!-- Second Tier Drop Down -->
-              <ul>
-                  <li><a href="#">algo </a></li>
-                  <li><a href="#">algo </a></li>
-                  <li><a href="#">algo </a>
-                      <!-- Third Tier Drop Down -->
-                      <ul>
-                          <li><a href="#">algo</a></li>
-                          <li><a href="#">algo</a></li>
-                          <li><a href="#">algo</a></li>
-                      </ul>
-                  </li>
-              </ul>
               </li>
           </ul>
           </li>
-          <li><a href="#">algo que no sabemos</a></li>
-          <li><a href="#">algo que no sabemos</a></li>
           <li><a href="#/Contact">Sobre Nosotros/Contacto</a></li>
       </ul>
   </nav>
