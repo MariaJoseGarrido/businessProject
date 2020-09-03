@@ -13,7 +13,7 @@ export const kids = () => {
     </div>
 
     <div class="container">
-    <h2 class="titleGame">Te invitamos a ver la serie de El Escuadrón prevención</h2>
+    <h2 class="titleGame">Te invitamos a ver la serie de "El Escuadrón prevención"</h2>
     <div class="row">
       <div class="col-sm">
       <iframe width="560" height="315" src="https://www.youtube.com/embed/9skA9MFlcs4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
