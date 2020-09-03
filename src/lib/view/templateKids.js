@@ -12,60 +12,20 @@ export const kids = () => {
     <br>
     </div>
 
-    <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
-      <ol class="carousel-indicators">
-        <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
-        <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
-        <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
-      </ol>
-
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <iframe width="600" height="400" 
-        src="https://www.youtube.com/embed/kDjrJ5Mu_OY" 
-        frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="
-        width: 100%;">
-      </iframe>
-        <div class="carousel-caption d-none d-md-block">
-          <p class="tittle-video-carrousel">"Ganémosle al virus, Trailer"</p>
-        </div>
+    <div class="container">
+    <h2 class="titleGame">Te invitamos a ver la serie de El Escuadrón prevención</h2>
+    <div class="row">
+      <div class="col-sm">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/9skA9MFlcs4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
-
-      <div class="carousel-item">
-        <iframe width="600" height="400" 
-        src="https://www.youtube.com/embed/G2BHb6kWnRc" 
-        frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="
-        width: 100%;">
-      </iframe>
-        <div class="carousel-caption d-none d-md-block">
-          <p class="tittle-video-carrousel">"Puma Espuma y el Escuadrón Prevención en...¡La corona es nuestra!"</p>
-        </div>
+      <div class="col-sm">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/G2BHb6kWnRc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
-
-      <div class="carousel-item">
-        <iframe width="600" height="400" 
-        src="https://www.youtube.com/embed/tuILs6Zedco" 
-        frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="
-        width: 100%;">
-      </iframe>
-        <div class="carousel-caption d-none d-md-block">
-          <p class="tittle-video-carrousel">"Puma Espuma y el Escuadrón Prevención en...Una gran aventura en un mundo pequeño"</p>
-        </div>
+      <div class="col-sm">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/tuILs6Zedco" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
     </div>
-
-    <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-
-    <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="sr-only">Next</span>
-    </a>
   </div>
-
-</div>
 
   <section>
   <p class="title text-left"> ✨ Conoce a nuestro escuadrón prevención</p>
