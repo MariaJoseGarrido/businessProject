@@ -1,0 +1,19 @@
+{
+  "name": "businessproject",
+  "version": "1.0.0",
+  "description": "![Hootie Hoo](https://i.ibb.co/7kMKBZm/02-Imagotipo-Sin-texto-auxiliar.png)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BarbaraMV/businessProject.git"
+  },
+  "author": "Francisca Garrido, María José Garrido, Bárbara Madariaga",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BarbaraMV/businessProject/issues"
+  },
+  "homepage": "https://github.com/BarbaraMV/businessProject#/"
+}
