@@ -9,8 +9,7 @@ export const menu = () => {
           <!-- First Tier Drop Down -->
           <ul>
               <li><a href="#/quizParents">Trivia</a></li>
-          </ul>        
-          <!-- First Tier Drop Down -->      
+          </ul>          
           </li>
           <li><a href="#/kids">Zona Kids</a>
           <!-- First Tier Drop Down -->
